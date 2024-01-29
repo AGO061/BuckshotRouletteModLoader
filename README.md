@@ -45,3 +45,6 @@ I'm not allowed under any circumstance to give the executable or source files to
 # Adding Mods
 Create a `mods` folder in the same folder as your executable and drop all the mod zips in there.
 Check the `mods` folder in this repo to see a test mod that simply moves the soap in the bathroom.
+
+# Development
+Check out the [BRML Development wiki](https://github.com/AGO061/BuckshotRouletteModLoader/wiki) for more info
