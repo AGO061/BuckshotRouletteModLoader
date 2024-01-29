@@ -20,16 +20,22 @@ I'm not allowed under any circumstance to give the executable or source files to
 # Installation
 ## Requirements
 - [Delta Patcher](https://www.romhacking.net/utilities/704/) (I used 3.0.1 to make the patch).
-- The patch file in this repo.
+- The `BRML.xdelta` patch file in the releases of this repo.
 - A copy of the game obtained [here](https://mikeklubnika.itch.io/buckshot-roulette) V1.1
 - (optional) a test mod to try and see if it works
 ## Steps
-- Open Delta Patcher
-IMAGE HERE
-- Add the path to the Buckshot Roulette executable
-IMAGE HERE
-- Add the path to the Patch xdelta file
-IMAGE HERE
+- Open Delta Patcher\
+\
+![Delta Patcher UI](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaOpen.PNG?raw=true "Delta Patcher UI")
+\
+- Add the path to the Buckshot Roulette executable\
+\
+![Delta Patcher Add Source](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaBRSelect.PNG?raw=true "Delta Patcher Add Source")
+\
+- Add the path to the `BRML.xdelta` file\
+\
+![Delta Patcher Add Patch](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaPatchSelect.PNG?raw=true "Delta Patcher Add Patch")
+\
 - Click on Apply patch and wait for it to finish
 - You are done! Run the game and check if you see the version as `V1.1 (MODDED)` and a Mod Loader mod inside the `MODS` menu
 
