@@ -1,9 +1,9 @@
-# BulletRouletteModLoader
+# BuckshotRoulettteModLoader
 **Only avaliable for V1.1**\
 A Mod Loader for Bullet Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
-![BRML Title Screen](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/BRMLMainScreen.png?raw=true "BRML Title Screen")
-![BRML Mod Menu](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/BRMLModMenu.png?raw=true "BRML Mod Menu")
+![BRML Title Screen](https://github.com/AGO061/BuckshotRoulettteModLoader/blob/main/img_docs/BRMLMainScreen.png?raw=true "BRML Title Screen")
+![BRML Mod Menu](https://github.com/AGO061/BuckshotRoulettteModLoader/blob/main/img_docs/BRMLModMenu.png?raw=true "BRML Mod Menu")
 ## Info
 I'm not allowed under any circumstance to give the executable or source files to the game, so i provide a xdelta patch file that has to be applied to the executable obtained from [itch.io](https://mikeklubnika.itch.io/buckshot-roulette)
 
@@ -28,15 +28,15 @@ I'm not allowed under any circumstance to give the executable or source files to
 ## Steps
 - Open Delta Patcher\
 \
-![Delta Patcher UI](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaOpen.PNG?raw=true "Delta Patcher UI")
+![Delta Patcher UI](https://github.com/AGO061/BuckshotRoulettteModLoader/blob/main/img_docs/XdeltaOpen.PNG?raw=true "Delta Patcher UI")
 
 - Add the path to the Buckshot Roulette executable\
 \
-![Delta Patcher Add Source](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaBRSelect.PNG?raw=true "Delta Patcher Add Source")
+![Delta Patcher Add Source](https://github.com/AGO061/BuckshotRoulettteModLoader/blob/main/img_docs/XdeltaBRSelect.PNG?raw=true "Delta Patcher Add Source")
 
 - Add the path to the `BRML.xdelta` file\
 \
-![Delta Patcher Add Patch](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaPatchSelect.PNG?raw=true "Delta Patcher Add Patch")
+![Delta Patcher Add Patch](https://github.com/AGO061/BuckshotRoulettteModLoader/blob/main/img_docs/XdeltaPatchSelect.PNG?raw=true "Delta Patcher Add Patch")
 
 - Click on Apply patch and wait for it to finish
 - You are done! Run the game and check if you see the version as `V1.1 (MODDED)` and a Mod Loader mod inside the `MODS` menu
