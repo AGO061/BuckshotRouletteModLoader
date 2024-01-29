@@ -1,6 +1,7 @@
 # BulletRouletteModLoader
 **Only avaliable for V1.1**\
-A Mod Loader for Bullet Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.
+A Mod Loader for Bullet Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
+\
 ![BRML Title Screen](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/BRMLMainScreen.png?raw=true "BRML Title Screen")
 ![BRML Mod Menu](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/BRMLModMenu.png?raw=true "BRML Mod Menu")
 ## Info
