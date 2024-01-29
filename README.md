@@ -43,6 +43,11 @@ I'm not allowed under any circumstance to give the executable or source files to
 - Click on Apply patch and wait for it to finish
 - You are done! Run the game and check if you see the version as `V1.1 (MODDED)` and a Mod Loader mod inside the `MODS` menu
 
+## Future installs
+In the newer versions i will include an xdelta file to update from the previous modded binary to the new one.\
+For example, when i release `1.1.0`, to upgrade from `1.0.0` you will find a file in the `1.1.0` release with the name `V1-0-0_UPGRADE_BRML.xdelta`. You will just have to apply that file to the modded exe with the `1.0.0` version of the loader installed to upgrade to `1.1.0`.\
+This will only be present when the release of the game is the same (For all updates to the V1.1 game for example), when the developer updates the game and i make a new release, you will have to download the new version and patch that one.\
+If you lost some updates on the way, you will have to go step-by-step and install each xdelta in order until you arrive to the final version.
 # Adding Mods
 Create a `mods` folder in the same folder as your executable and drop all the mod zips in there.
 Check the `mods` folder in this repo to see a test mod that simply moves the soap in the bathroom.
