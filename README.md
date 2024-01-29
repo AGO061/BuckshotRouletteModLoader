@@ -29,15 +29,15 @@ I'm not allowed under any circumstance to give the executable or source files to
 - Open Delta Patcher\
 \
 ![Delta Patcher UI](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaOpen.PNG?raw=true "Delta Patcher UI")
-\
+
 - Add the path to the Buckshot Roulette executable\
 \
 ![Delta Patcher Add Source](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaBRSelect.PNG?raw=true "Delta Patcher Add Source")
-\
+
 - Add the path to the `BRML.xdelta` file\
 \
 ![Delta Patcher Add Patch](https://github.com/AGO061/BulletRouletteModLoader/blob/main/img_docs/XdeltaPatchSelect.PNG?raw=true "Delta Patcher Add Patch")
-\
+
 - Click on Apply patch and wait for it to finish
 - You are done! Run the game and check if you see the version as `V1.1 (MODDED)` and a Mod Loader mod inside the `MODS` menu
 
