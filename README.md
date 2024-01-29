@@ -52,5 +52,9 @@ If you lost some updates on the way, you will have to go step-by-step and instal
 Create a `mods` folder in the same folder as your executable and drop all the mod zips in there.
 Check the `mods` folder in this repo to see a test mod that simply moves the soap in the bathroom.
 
+# Avaliable Mods
+- [TestMod 1.0.0](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-TestMod-1.0.0.zip) - a basic test mod that moves the soap bar from one side of the sink to the other.
+- [OpenGL3Fix 1.0.0](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-OpenGL3Fix-1.0.0.zip) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work.
+
 # Development
 Check out the [BRML Development wiki](https://github.com/AGO061/BuckshotRouletteModLoader/wiki) for more info
