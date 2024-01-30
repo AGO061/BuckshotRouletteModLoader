@@ -7,6 +7,10 @@ A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://githu
 ## Info
 I'm not allowed under any circumstance to give the executable or source files to the game, so i provide a xdelta patch file that has to be applied to the executable obtained from [itch.io](https://mikeklubnika.itch.io/buckshot-roulette)
 
+## Avaliable Mods
+- [TestMod 1.0.0](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-TestMod-1.0.0.zip) - a basic test mod that moves the soap bar from one side of the sink to the other.
+- [OpenGL3Fix 1.0.0](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-OpenGL3Fix-1.0.0.zip) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix
+
 ## Currently supported features
 - Basic mod support: allows to load custom mod zips to a mods folder in the same directory as the game.
 - Normal fix: Fixed normals from the [GDRE Tools](https://github.com/bruvzg/gdsdecomp) decomp of the game.
@@ -48,13 +52,10 @@ In the newer versions i will include an xdelta file to update from the previous 
 For example, when i release `1.1.0`, to upgrade from `1.0.0` you will find a file in the `1.1.0` release with the name `V1-0-0_UPGRADE_BRML.xdelta`. You will just have to apply that file to the modded exe with the `1.0.0` version of the loader installed to upgrade to `1.1.0`.\
 This will only be present when the release of the game is the same (For all updates to the V1.1 game for example), when the developer updates the game and i make a new release, you will have to download the new version and patch that one.\
 If you lost some updates on the way, you will have to go step-by-step and install each xdelta in order until you arrive to the final version.
+
 # Adding Mods
 Create a `mods` folder in the same folder as your executable and drop all the mod zips in there.
 Check the `mods` folder in this repo to see a test mod that simply moves the soap in the bathroom.
-
-# Avaliable Mods
-- [TestMod 1.0.0](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-TestMod-1.0.0.zip) - a basic test mod that moves the soap bar from one side of the sink to the other.
-- [OpenGL3Fix 1.0.0](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-OpenGL3Fix-1.0.0.zip) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix
 
 # Development
 Check out the [BRML Development wiki](https://github.com/AGO061/BuckshotRouletteModLoader/wiki) for more info
