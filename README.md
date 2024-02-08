@@ -24,6 +24,7 @@ I'm not allowed under any circumstance to give the executable or source files to
 - The lighting in the bathroom is different from the original game
 - The lighting of the rave is different from the original game
 - Missing checks for game version, mod dependencies and collisions.
+- Music will stop working when the dealer cutscene starts (this bug only happens in version 1.1.0 pre-release 1)
 
 # Installation
 ## Requirements
