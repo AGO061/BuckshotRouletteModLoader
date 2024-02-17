@@ -11,9 +11,11 @@ I'm not allowed under any circumstance to give the executable or source files to
 if anyone decides to take that route (which I don't recommend as it is illegal + not donating to an indie developer isn't nice) I'm not gonna provide help for bugs/issues as I don't have any way of knowing if they are caused by the cracked exe.
 
 ## Avaliable Mods
-- [TestMod](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-TestMod-1.0.0.zip) - a basic test mod that moves the soap bar from one side of the sink to the other.
-- [OpenGL3Fix](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/OpenGL3Fix.md) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix
+- [TestMod](https://github.com/AGO061/BuckshotRouletteModLoader/raw/main/mods/AGO061-TestMod-1.0.0.zip) ([ModLoader version support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#testmod-by-ago061)) - a basic test mod that moves the soap bar from one side of the sink to the other.
+- [OpenGL3 Fix](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/OpenGL3Fix.md) ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#opengl3-fix-by-ago061)) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix.
+- [Smarter Dealer](https://github.com/ITR13/BuckshotRouletteSmarterDealer/releases/latest) ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#smarter-dealer-by-itr)) - a deadly dealer that will absolutely shred you.
 
+Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md) file in case i missed some mods here, or haven't added the Mod Version Support link.
 ## Currently supported features
 - Basic mod support: allows to load custom mod zips to a mods folder in the same directory as the game.
 - Normal fix: Fixed normals from the [GDRE Tools](https://github.com/bruvzg/gdsdecomp) decomp of the game.
