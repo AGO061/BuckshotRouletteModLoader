@@ -12,3 +12,7 @@ this file contains the supported ModLoader version for each Mod in the list on t
 ## Smarter Dealer by ITR (All versions)
 ✖ v.1.0.0\
 ✔ v.1.1.0 (Pre-release 1)
+
+## Native Resolution by EmK530
+✔ v.1.0.0\
+✔ v.1.1.0 (Pre-release 1)
