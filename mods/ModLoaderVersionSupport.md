@@ -19,3 +19,9 @@ this file contains the supported ModLoader version for each Mod in the list on t
 ## Challenge Pack by StarPandaBeg
 ✔ v.1.0.0\
 ✔ v.1.1.0 (Pre-release 1)
+## Dealer Face by ScientificGuy
+✖ v.1.0.0\
+✔ v.1.1.0 (Pre-release 1)
+## Bug Fixes by ScientificGuy
+✖ v.1.0.0\
+✔ v.1.1.0 (Pre-release 1)
