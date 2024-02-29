@@ -32,6 +32,7 @@ Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/
 - The lighting of the rave is different from the original game
 - Missing checks for game version, mod dependencies and collisions.
 - Music will stop working when the dealer cutscene starts (this bug only happens in version 1.1.0 pre-release 1)
+- Heaven scene seems to be corrupted in 1.0.0
 
 # Installation
 ## Requirements
