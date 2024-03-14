@@ -24,6 +24,7 @@ Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/
 - Basic mod support: allows to load custom mod zips to a mods folder in the same directory as the game.
 - Normal fix: Fixed normals from the [GDRE Tools](https://github.com/bruvzg/gdsdecomp) decomp of the game.
 - Default render pipeline: This version uses the Forward+ renderer by default (unlike the absolutely illegal web and mobile ports)
+- **(NEW)** Possibility to add a custom config menu for your mod! (Check the TestMod source code to learn how as i currently don't have the time to write a wiki)
 
 ## Advantages for users and developers
 - Easy installation of mods
