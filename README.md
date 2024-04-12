@@ -1,16 +1,17 @@
 # BuckshotRouletteModLoader
-**Only avaliable for V1.1**\
+**NOW AVAILABLE FOR V1.2.2!**\
 A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
 ![BRML Title Screen](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLMainScreen.png?raw=true "BRML Title Screen")
 ![BRML Mod Menu](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLModMenu.png?raw=true "BRML Mod Menu")
 ## Info
-I'm not allowed under any circumstance to give the executable or source files to the game, so i provide a xdelta patch file that has to be applied to the executable obtained from [itch.io](https://mikeklubnika.itch.io/buckshot-roulette)
+This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (v1.2.2) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570).
 
-**I DO NOT PROVIDE SUPPORT FOR PIRATED COPIES OF THE GAME**\
-if anyone decides to take that route (which I don't recommend as it is illegal + not donating to an indie developer isn't nice) I'm not gonna provide help for bugs/issues as I don't have any way of knowing if they are caused by the cracked exe.
+**WE DO NOT PROVIDE SUPPORT FOR PIRATED COPIES OF THE GAME.**
+Mike Klubnika and Critical Reflex have worked hard on this game. Please show them respect and don't pirate the game. Any requests to see the source code without verification of ownership will be ignored.
 
 ## Avaliable Mods
+_This list is outdated due to the Steam update and will be updated soon!_
 - [TestMod](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/TestMod.md) by AGO061 ([ModLoader version support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#testmod-by-ago061)) - a basic test mod that moves the soap bar from one side of the sink to the other.
 - [OpenGL3 Fix](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/OpenGL3Fix.md) by AGO061 ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#opengl3-fix-by-ago061)) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix.
 - [Smarter Dealer](https://github.com/ITR13/BuckshotRouletteSmarterDealer/releases/latest) by ITR ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#smarter-dealer-by-itr)) - a deadly dealer that will absolutely shred you.
@@ -39,31 +40,12 @@ Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/
 
 # Installation
 ## Requirements
-- [Delta Patcher](https://www.romhacking.net/utilities/704/) (I used 3.0.1 to make the patch).
-- The `BRML.xdelta` patch file in the releases of this repo.
-- A copy of the game obtained [here](https://mikeklubnika.itch.io/buckshot-roulette) V1.1
-- (optional) a test mod to try and see if it works
-## Steps
-- Open Delta Patcher\
-\
-![Delta Patcher UI](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/XdeltaOpen.PNG?raw=true "Delta Patcher UI")
+- Buckshot Roulette.exe (v1.2.2, Steam)
+- BRML_setup.exe ([available here or in the "Releases" section](https://github.com/AGO061/BuckshotRouletteModLoader/releases/latest))
+  _or_
+- A delta patching software (not recommended)
 
-- Add the path to the Buckshot Roulette executable\
-\
-![Delta Patcher Add Source](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/XdeltaBRSelect.PNG?raw=true "Delta Patcher Add Source")
-
-- Add the path to the `BRML.xdelta` file\
-\
-![Delta Patcher Add Patch](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/XdeltaPatchSelect.PNG?raw=true "Delta Patcher Add Patch")
-
-- Click on Apply patch and wait for it to finish
-- You are done! Run the game and check if you see the version as `V1.1 (MODDED)` and a Mod Loader mod inside the `MODS` menu
-
-## Future installs
-In the newer versions i will include an xdelta file to update from the previous modded binary to the new one.\
-For example, when i release `1.1.0`, to upgrade from `1.0.0` you will find a file in the `1.1.0` release with the name `V1-0-0_UPGRADE_BRML.xdelta`. You will just have to apply that file to the modded exe with the `1.0.0` version of the loader installed to upgrade to `1.1.0`.\
-This will only be present when the release of the game is the same (For all updates to the V1.1 game for example), when the developer updates the game and i make a new release, you will have to download the new version and patch that one.\
-If you lost some updates on the way, you will have to go step-by-step and install each xdelta in order until you arrive to the final version.
+Run the setup .exe after you have installed the original game. The mod will be installed to `Documents`. Then use the created shortcut, the included `brml.bat` file, or the modded .exe to run the game. It's that easy!
 
 # Adding Mods
 Create a `mods` folder in the same folder as your executable and drop all the mod zips in there.
