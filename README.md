@@ -2,8 +2,8 @@
 **NOW AVAILABLE FOR V1.2.2!**\
 A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
-![BRML Title Screen](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLMainScreen.png?raw=true "BRML Title Screen")
-![BRML Mod Menu](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLModMenu.png?raw=true "BRML Mod Menu")
+![BRML Title Screen](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
+![BRML Mod Menu](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLModMenu.png "BRML Mod Menu")
 ## Info
 This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (v1.2.2) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570).
 
