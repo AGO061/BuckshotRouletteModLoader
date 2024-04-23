@@ -51,16 +51,10 @@ Run the setup .exe after you have installed the original game. The mod will be i
 ## Linux
 ### Requirements
  - Buckshot Roulette.x86_64
- - xdelta (`sudo apt install xdelta`)
+ - xdelta3 (`sudo apt install xdelta3`)
+ - unzip (`sudo apt install unzip`)
 
-Once `Buckshot Roulette.x86_64` is in a directory on your computer, run the following commands. If `xdelta3` and `unzip` are not currently installed:
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install xdelta3 unzip
-```
-
-To install the BRML in a subfolder of the folder where the original game file is:
+Once `Buckshot Roulette.x86_64` is in a directory on your computer, run the following commands from the folder where the original game file is:
 ```
 mkdir Buckshot\ Roulette
 cd Buckshot\ Roulette
