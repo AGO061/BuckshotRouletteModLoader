@@ -74,7 +74,7 @@ start "" "%%i"
 ```
   to this:
 ```
-start "" "%%i --rendering-driver opengl3"
+start "" "%%i" --rendering-driver opengl3
 ```
 For the Linux `brml.sh` file, change the following line:
 ```
