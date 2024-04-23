@@ -50,7 +50,7 @@ Run the setup .exe after you have installed the original game. The mod will be i
 
 ## Linux
 ### Requirements
- - Buckshot Roulette.x86_64
+ - Buckshot Roulette.x86_64 (v1.2.2 Hotfix 1)
  - xdelta3 (`sudo apt install xdelta3`)
  - unzip (`sudo apt install unzip`)
 
