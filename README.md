@@ -61,7 +61,7 @@ cd Buckshot\ Roulette
 mkdir mods override configs
 wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.2/brml2_linux.xdelta
 wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.2/brml.sh
-xdelta3 -d brml2_linux.xdelta ../Buckshot\ Roulette.x86_64 Buckshot\ Roulette.x86_64
+xdelta3 -d -s ../Buckshot\ Roulette.x86_64 brml2_linux.xdelta Buckshot\ Roulette.x86_64
 rm brml2_linux.xdelta
 chmod +x brml.sh Buckshot\ Roulette.x86_64
 ```
