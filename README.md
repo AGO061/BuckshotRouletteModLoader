@@ -68,7 +68,7 @@ chmod +x brml.sh Buckshot\ Roulette.x86_64
 You can now run the BRML using the command `./brml.sh` in the `Buckshot Roulette` directory.
 
 ## Troubleshooting
-To run the Windows installer version with OpenGL3, change the following line:
+To run the Windows installer version with OpenGL3, change the following line in `brml.bat`:
 ```
 start "" "%%i"
 ```
