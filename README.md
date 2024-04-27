@@ -5,7 +5,7 @@ A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://githu
 ![BRML Title Screen](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
 ![BRML Mod Menu](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLModMenu.png "BRML Mod Menu")
 ## Info
-This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (v1.2.2) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570) or [also available on itch.io](https://mikeklubnika.itch.io/buckshot-roulette).
+This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (v1.2.2, Steam Hotfix 2 and itch.io Hotfix 3) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570) and [also available on itch.io](https://mikeklubnika.itch.io/buckshot-roulette).
 
 **WE DO NOT PROVIDE SUPPORT FOR PIRATED COPIES OF THE GAME.**
 Mike Klubnika and Critical Reflex have worked hard on this game. Please show them respect and don't pirate the game. Any requests to see the source code without verification of ownership will be ignored.
@@ -41,7 +41,7 @@ Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/
 # Installation
 ## Windows
 ### Requirements
-- Buckshot Roulette.exe (v1.2.2 Hotfix 1)
+- Buckshot Roulette.exe (v1.2.2, Steam Hotfix 2 or itch.io Hotfix 3)
 - BRML_setup.exe ([available here or in the "Releases" section](https://github.com/AGO061/BuckshotRouletteModLoader/releases/latest))
   _or_
 - A delta patching software (not recommended)
@@ -50,7 +50,7 @@ Run the setup .exe after you have installed the original game. The mod will be i
 
 ## Linux
 ### Requirements
- - Buckshot Roulette.x86_64 (v1.2.2 Hotfix 1)
+ - Buckshot Roulette.x86_64 (v1.2.2 Hotfix 3)
  - xdelta3 (`sudo apt install xdelta3`)
  - unzip (`sudo apt install unzip`)
 
@@ -59,8 +59,8 @@ Once `Buckshot Roulette.x86_64` is in a directory on your computer, run the foll
 mkdir Buckshot\ Roulette
 cd Buckshot\ Roulette
 mkdir mods override configs
-wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.2/brml2_linux.xdelta
-wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.2/brml.sh
+wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.3/brml2_linux.xdelta
+wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.3/brml.sh
 xdelta3 -d -s ../Buckshot\ Roulette.x86_64 brml2_linux.xdelta Buckshot\ Roulette.x86_64
 rm brml2_linux.xdelta
 chmod +x brml.sh Buckshot\ Roulette.x86_64
