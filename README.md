@@ -65,9 +65,9 @@ You can now run the BRML using the command `./brml.sh` in the `Buckshot Roulette
 
 ## Server
 ### Requirements
- - BRML3_server.exe (Windows)
+ - brml3_server.exe (Windows)
    _or_
- - BRML3_server.x86_64 (Linux)
+ - brml3_server.x86_64 (Linux)
 
 Run the server executable to be able to connect with other players in native multiplayer (no mods). You can specify the server URL and create a username in the mod config menu for the modloader (Mods -> gear icon).
 
