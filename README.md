@@ -1,11 +1,11 @@
 # BuckshotRouletteModLoader
-**NOW AVAILABLE FOR V1.2.2 (STEAM AND ITCH.IO), WINDOWS AND LINUX!**\
+**FULL MULTIPLAYER SUPPORT FOR WINDOWS AND LINUX, STEAM 2.0.0.2 AND ITCH 1.2.2.3!**\
 A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
-![BRML Title Screen](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
-![BRML Mod Menu](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/img_docs/BRMLModMenu.png "BRML Mod Menu")
+![BRML Title Screen](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
+![BRML Mod Menu](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLModMenu.png "BRML Mod Menu")
 ## Info
-This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (v1.2.2, Steam Hotfix 2 and itch.io Hotfix 3) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570) and [also available on itch.io](https://mikeklubnika.itch.io/buckshot-roulette).
+This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (Steam v2.0.0.2 and itch.io v1.2.2.3) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570) and [also available on itch.io](https://mikeklubnika.itch.io/buckshot-roulette).
 
 **WE DO NOT PROVIDE SUPPORT FOR PIRATED COPIES OF THE GAME.**
 Mike Klubnika and Critical Reflex have worked hard on this game. Please show them respect and don't pirate the game. Any requests to see the source code without verification of ownership will be ignored.
@@ -32,16 +32,12 @@ Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/
 - Development of mods can be done on the decomp of the game and then used samelessly here, or you can try to decompile the patched game and work from there.
 
 ## Known issues
-- The lighting in the bathroom is different from the original game
-- The lighting of the rave is different from the original game
 - Missing checks for game version, mod dependencies and collisions.
-- Music will stop working when the dealer cutscene starts (this bug only happens in version 1.1.0 pre-release 1)
-- Heaven scene seems to be corrupted in 1.0.0
 
 # Installation
 ## Windows
 ### Requirements
-- Buckshot Roulette.exe (v1.2.2, Steam Hotfix 2 or itch.io Hotfix 3)
+- Buckshot Roulette.exe (Steam v2.0.0.2 or itch.io v1.2.2.3)
 - BRML_setup.exe ([available here or in the "Releases" section](https://github.com/AGO061/BuckshotRouletteModLoader/releases/latest))
   _or_
 - A delta patching software (not recommended)
@@ -50,7 +46,7 @@ Run the setup .exe after you have installed the original game. The mod will be i
 
 ## Linux
 ### Requirements
- - Buckshot Roulette.x86_64 (v1.2.2 Hotfix 3)
+ - Buckshot Roulette.x86_64 (Steam v2.0.0.2 or itch.io v1.2.2.3)
  - xdelta3 (`sudo apt install xdelta3`)
  - unzip (`sudo apt install unzip`)
 
@@ -66,6 +62,19 @@ rm brml2_linux.xdelta
 chmod +x brml.sh Buckshot\ Roulette.x86_64
 ```
 You can now run the BRML using the command `./brml.sh` in the `Buckshot Roulette` directory.
+
+## Server
+### Requirements
+ - BRML3_server.exe (Windows)
+   _or_
+ - BRML3_server.x86_64 (Linux)
+
+Run the server executable to be able to connect with other players in native multiplayer (no mods). You can specify the server URL and create a username in the mod config menu for the modloader (Mods -> gear icon).
+
+To allow players on other networks to play with you:
+ - Find the IP address of the device hosting the server
+ - Configure your router settings to forward port 2096 on that IP address with UDP
+ - Find your public IP address (search online for "What is my IP address" or check your router's settings) and give that to other players
 
 ## Troubleshooting
 To run the Windows installer version with OpenGL3, change the following line in `brml.bat`:
