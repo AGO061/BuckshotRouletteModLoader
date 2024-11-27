@@ -5,7 +5,7 @@ A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://githu
 ![BRML Title Screen](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
 ![BRML Mod Menu](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLModMenu.png "BRML Mod Menu")
 ## Info
-This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (Steam v2.0.0.2 and itch.io v1.2.2.3) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570) and [also available on itch.io](https://mikeklubnika.itch.io/buckshot-roulette).
+This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (Steam v2.1.0.11 and itch.io v1.2.2.3) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570) and [also available on itch.io](https://mikeklubnika.itch.io/buckshot-roulette).
 
 **WE DO NOT PROVIDE SUPPORT FOR PIRATED COPIES OF THE GAME.**
 Mike Klubnika and Critical Reflex have worked hard on this game. Please show them respect and don't pirate the game. Any requests to see the source code without verification of ownership will be ignored.
@@ -25,7 +25,7 @@ Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/
 - Basic mod support: allows to load custom mod zips to a mods folder in the same directory as the game.
 - Normal fix: Fixed normals from the [GDRE Tools](https://github.com/bruvzg/gdsdecomp) decomp of the game.
 - Default render pipeline: This version uses the Forward+ renderer by default (unlike the absolutely illegal web and mobile ports)
-- **(NEW)** Possibility to add a custom config menu for your mod! (Check the TestMod source code to learn how as i currently don't have the time to write a wiki)
+- Possibility to add a custom config menu for your mod! (Check the TestMod source code to learn how as i currently don't have the time to write a wiki)
 
 ## Advantages for users and developers
 - Easy installation of mods
@@ -37,7 +37,7 @@ Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/
 # Installation
 ## Windows
 ### Requirements
-- Buckshot Roulette.exe (Steam v2.0.0.2 or itch.io v1.2.2.3)
+- Buckshot Roulette.exe (Steam v2.1.0.11 or itch.io v1.2.2.3)
 - BRML_setup.exe ([available here or in the "Releases" section](https://github.com/AGO061/BuckshotRouletteModLoader/releases/latest))
   _or_
 - A delta patching software (not recommended)
@@ -46,7 +46,7 @@ Run the setup .exe after you have installed the original game. The mod will be i
 
 ## Linux
 ### Requirements
- - Buckshot Roulette.x86_64 (Steam v2.0.0.2 or itch.io v1.2.2.3)
+ - Buckshot Roulette.x86_64 (Steam v2.1.0.11 or itch.io v1.2.2.3)
  - xdelta3 (`sudo apt install xdelta3`)
  - unzip (`sudo apt install unzip`)
 
@@ -55,12 +55,14 @@ Once `Buckshot Roulette.x86_64` is in a directory on your computer, run the foll
 mkdir Buckshot\ Roulette
 cd Buckshot\ Roulette
 mkdir mods override configs
-wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.3/brml2_linux.xdelta
-wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/2.0.3/brml.sh
-xdelta3 -d -s ../Buckshot\ Roulette.x86_64 brml2_linux.xdelta Buckshot\ Roulette.x86_64
-rm brml2_linux.xdelta
+wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/3.1.0/brml3_linux_steam.xdelta
+wget https://github.com/AGO061/BuckshotRouletteModLoader/releases/download/3.1.0/brml.sh
+xdelta3 -d -s ../Buckshot\ Roulette.x86_64 brml3_linux_steam.xdelta Buckshot\ Roulette.x86_64
+rm brml3_linux_steam.xdelta
 chmod +x brml.sh Buckshot\ Roulette.x86_64
 ```
+*Note: Replace `brml3_linux_steam.xdelta` with `brml3_linux_itch.xdelta` if necessary.*
+
 You can now run the BRML using the command `./brml.sh` in the `Buckshot Roulette` directory.
 
 ## Server
