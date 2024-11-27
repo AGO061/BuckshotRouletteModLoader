@@ -1,5 +1,5 @@
 # BuckshotRouletteModLoader
-**FULL MULTIPLAYER SUPPORT FOR WINDOWS AND LINUX, STEAM 2.0.0.2 AND ITCH 1.2.2.3!**\
+**FULL MULTIPLAYER SUPPORT FOR WINDOWS AND LINUX, STEAM 2.1.0.11 AND ITCH 1.2.2.3!**\
 A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
 ![BRML Title Screen](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
