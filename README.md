@@ -1,5 +1,5 @@
 # BuckshotRouletteModLoader
-**FULL MULTIPLAYER SUPPORT FOR WINDOWS AND LINUX, STEAM 2.1.0.11 AND ITCH 1.2.2.3!**\
+**FULL MULTIPLAYER SUPPORT FOR WINDOWS AND LINUX, STEAM 2.1.0.11, AND ITCH 1.2.2.3!**\
 A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
 ![BRML Title Screen](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
@@ -10,29 +10,31 @@ This repository does not contain the source code for Buckshot Roulette by Mike K
 **WE DO NOT PROVIDE SUPPORT FOR PIRATED COPIES OF THE GAME.**
 Mike Klubnika and Critical Reflex have worked hard on this game. Please show them respect and don't pirate the game. Any requests to see the source code without verification of ownership will be ignored.
 
-## Avaliable Mods
+## Available Mods
 _This list is outdated due to the latest updates and will be updated soon!_
 - [TestMod](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/TestMod.md) by AGO061 ([ModLoader version support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#testmod-by-ago061)) - a basic test mod that moves the soap bar from one side of the sink to the other.
-- [OpenGL3 Fix](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/OpenGL3Fix.md) by AGO061 ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#opengl3-fix-by-ago061)) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix.
+- [OpenGL3 Fix](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/OpenGL3Fix.md) by AGO061 ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#opengl3-fix-by-ago061)) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on Windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix.
 - [Smarter Dealer](https://github.com/ITR13/BuckshotRouletteSmarterDealer/releases/latest) by ITR ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#smarter-dealer-by-itr)) - a deadly dealer that will absolutely shred you.
 - [Native Resolution](https://github.com/EmK530/BRMods/tree/main/BRML/NativeResolution/Release) by EmK530 ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#native-resolution-by-emk530)) - a mod that increases the game's resolution to match your monitor.
 - [Challenge Pack](https://github.com/StarPandaBeg/ChallengePack) by StarPandaBeg ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#challenge-pack-by-starpandabeg)) - a mod hides bullets, items with a configuration menu.
 - [Dealer Face](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) by ScientificGuy ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#dealer-face-by-scientificguy)) - resets the Dealer's face in between rounds.
 - [Bug Fixes](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) by ScientificGuy ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#bug-fixes-by-scientificguy)) - fixes bugs such as slow motion through resets.
 
-Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md) file in case i missed some mods here, or haven't added the Mod Version Support link.
+Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md) file in case I missed some mods here, or haven't added the Mod Version Support link.
 ## Currently supported features
 - Basic mod support: allows to load custom mod zips to a mods folder in the same directory as the game.
-- Normal fix: Fixed normals from the [GDRE Tools](https://github.com/bruvzg/gdsdecomp) decomp of the game.
+- Normal fix: Fixed normals from the [GDRE Tools](https://github.com/bruvzg/gdsdecomp) decompilation of the game.
 - Default render pipeline: This version uses the Forward+ renderer by default (unlike the absolutely illegal web and mobile ports)
-- Possibility to add a custom config menu for your mod! (Check the TestMod source code to learn how as i currently don't have the time to write a wiki)
+- Possibility to add a custom config menu for your mod! (Check the TestMod source code to learn how as I currently don't have the time to write a wiki)
+- Multiplayer support on your own [servers](#server). **WARNING:** NO STEAM MULTIPLAYER support for patched games!
 
 ## Advantages for users and developers
 - Easy installation of mods
-- Development of mods can be done on the decomp of the game and then used samelessly here, or you can try to decompile the patched game and work from there.
+- Development of mods can be done on the decompilation of the game and then used seamlessly here, or you can try to decompile the patched game and work from there.
 
 ## Known issues
-- Missing checks for game version, mod dependencies and collisions.
+- Missing checks for game version, mod dependencies, and collisions.
+- No Steam Achievements / Multiplayer (Ethical Reasons, no discussion)
 
 # Installation
 ## Windows
